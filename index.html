@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Música Eletrônica</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="myProgressBar"></div>
+    </div>
+
+    <header id="mainHeader">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3 mb-0 text-white">Música Eletrônica</h1>
+            <ul class="nav mt-3">
+                <li class="nav-item"><a class="nav-link" href="#inicio" aria-label="Ir para a seção inicial">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre" aria-label="Ir para a seção sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="#artistas" aria-label="Ir para a seção de artistas">Artistas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ncs" aria-label="Ir para a seção NCS">NCS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato" aria-label="Ir para a seção de contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false" aria-label="Menu de acessibilidade">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar o contraste de cores"> <i class="bi bi-shadows" aria-hidden="true"></i></button>         
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-bg"></div>
+            <div class="container hero-content">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4">Explorando o Universo da</h1>
+                        <h2 class="text-white mb-4" style="font-size: 3.5rem; font-family: 'Orbitron', sans-serif;">Música Eletrônica</h2>
+                        <p class="hero-subtitle">Descubra a evolução, os gêneros e a cultura por trás dessa forma de arte sonora que conquistou o mundo.</p>
+                        <a href="#sobre" class="btn botao-principal fw-semibold" aria-label="Saiba mais sobre música eletrônica">
+                            Explorar Agora <i class="bi bi-arrow-down-circle ms-2"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="https://linkstorage.linkfire.com/medialinks/images/af5bba83-3ff7-4c18-b4a6-a0d49ed17cf7/artwork-440x440" alt="Ilustração abstrata representando música eletrônica com elementos circulares e tecnológicos" class="img-fluid icone-musica" width="500" height="500" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="separador"></div>
+
+        <section id="sobre" class="my-5 pt-6" tabindex="0" aria-label="Seção sobre música eletrônica">
+            <div class="container">
+                <h2 class="titulo-secao text-center mb-5">Sobre a Música Eletrônica</h2>
+                <div class="row">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="genero-card">
+                            <h3>O Que É?</h3>
+                            <p>A música eletrônica é um gênero musical que utiliza instrumentos eletrônicos e tecnologia musical baseada em circuitos digitais e analógicos. Diferente da música tradicional, que depende principalmente de instrumentos acústicos, a eletrônica é criada, modificada e reproduzida através de equipamentos eletrônicos como sintetizadores, samplers, sequenciadores e computadores.</p>
+                            <p>Surgida no final do século XIX e início do século XX, a música eletrônica evoluiu drasticamente com o avanço da tecnologia, tornando-se um dos gêneros mais diversificados e populares globalmente, com subgêneros que variam do ambiente e experimental ao dance e comercial.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="genero-card">
+                            <h3>Evolução Histórica</h3>
+                            <p>Os primórdios da música eletrônica remontam às experiências com theremin e ondioline no início do século XX. Na década de 1960, o desenvolvimento dos sintetizadores Moog permitiu a criação de sons completamente novos. Artistas como Kraftwerk, Tangerine Dream e Klaus Schulze foram pioneiros na exploração dessas novas possibilidades sonoras.</p>
+                            <p>Nos anos 1980, a popularização dos sintetizadores e sequenciadores levou ao surgimento de novos gêneros como synthpop e EDM. A década de 1990 viu a explosão do techno, house, trance e drum and bass, enquanto o século XXI testemunhou a fusão da eletrônica com outros gêneros e a popularização massiva de festivais eletrônicos em todo o mundo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="artistas" class="my-5" tabindex="0" aria-label="Seção sobre artistas de música eletrônica">
+            <div class="container">
+                <h2 class="titulo-secao text-center mb-5">Artistas Destacados</h2>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card-artista">
+                            <img src="https://dynamicmedia.livenationinternational.com/Media/z/v/l/f8dbff67-2649-496e-83d7-8678075e608b.jpg" alt="Alan Walker - Artista de música eletrônica" class="imagem-artista" loading="lazy">
+                            <h3>Alan Walker</h3>
+                            <p>DJ e produtor musical norueguês, conhecido mundialmente por seu single "Faded", que recebeu certificado de platina em mais de 10 países. Seu estilo mistura elementos de house e electro com melodias cativantes.</p>
+                            <a href="#" class="btn botao-principal btn-sm">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card-artista">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.z0Og9rqgYtsasKP7U3XSjwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Illenium - Artista de música eletrônica" class="imagem-artista" loading="lazy">
+                            <h3>Marshmello</h3>
+                            <p>DJ e produtor musical norte-americano, Marshmello é uma das figuras mais conhecidas da música eletrônica. Seu estilo transita entre o future bass, electropop e progressive house, com faixas cativantes que misturam energia e emoção. Famoso pelo capacete em forma de marshmallow, ele ganhou destaque com hits como "Alone", "Silence" (com Khalid) e "Happier" (com Bastille). Marshmello já colaborou com grandes nomes de diferentes gêneros e é conhecido por seus shows envolventes e identidade visual única.</p>
+                            <a href="#" class="btn botao-principal btn-sm">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card-artista">
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.YPuX3saGL1qJwtukCpYy4wHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Martin Garrix - Artista de música eletrônica" class="imagem-artista" loading="lazy">
+                            <h3>Martin Garrix</h3>
+                            <p>DJ e produtor holandês que alcançou fama internacional com seu single "Animals" em 2013. Dono da gravadora STMPD RCRDS, é conhecido por suas produções de progressive house e big room, além de colaborações com artistas como Dua Lipa e Troye Sivan.</p>
+                            <a href="#" class="btn botao-principal btn-sm">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card-artista">
+                            <img src="https://store.tomorrowland.com/cdn/shop/files/220724-225848-TML2022-DN201341-DN.jpg?v=1658754930&width=2000" alt="Avicii - Artista de música eletrônica" class="imagem-artista" loading="lazy">
+                            <h3>Avicii</h3>
+                            <p>Tim Bergling, conhecido profissionalmente como Avicii, foi um DJ, remixer e produtor musical sueco. Suas músicas "Levels", "Wake Me Up" e "Hey Brother" alcançaram grande sucesso mundial. Seu estilo único misturava elementos de folk com música eletrônica.</p>
+                            <a href="#" class="btn botao-principal btn-sm">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card-artista">
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.aKKSvVzdax-XANIPgKTcRQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="James Arthur - Cantor e compositor" class="imagem-artista" loading="lazy">
+                            <h3>James Arthur</h3>
+                            <p>Cantor e compositor britânico que ganhou fama ao vencer a nona temporada do The X Factor UK em 2012. Conhecido por sua poderosa voz and canções emocionantes, colaborou com diversos artistas de música eletrônica, trazendo uma perspectiva vocal única para o gênero.</p>
+                            <a href="#" class="btn botao-principal btn-sm">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card-artista">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.5duPwf2kF3LU4ngpYVEECQHaFM?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Dua Lipa - Cantora e compositora" class="imagem-artista" loading="lazy">
+                            <h3>Dua Lipa</h3>
+                            <p>Cantora e compositora britânica que frequentemente colabora com artistas de música eletrônica. Seu estilo único combina pop com elementos eletrônicos, resultando em hits dançantes como "Don't Start Now" e "Physical", que apresentam produção eletrônica marcante.</p>
+                            <a href="#" class="btn botao-principal btn-sm">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ncs" tabindex="0" aria-label="Seção sobre NoCopyrightSounds">
+            <div class="container">
+                <h2 class="titulo-secao text-center mb-5">NoCopyrightSounds (NCS)</h2>
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0wIDQwIEMwIDE4IDAgMCA0MCAwIEM4MCAwIDgwIDE4IDgwIDQwIEM4MCA2MiA4MCA4MCA0MCA4MCBDMCA4MCAwIDYyIDAgNDAgWiIgZmlsbD0iIzAwQjRERiIvPjxwYXRoIGQ9Ik00MCA0MCBDNDAgMTggNDAgMCA4MCAwIEMxMjAgMCAxMjAgMTggMTIwIDQwIEMxMjAgNjIgMTIwIDgwIDgwIDgwIEM0MCA4MCA0MCA2MiA0MCA0MCBaIiBmaWxsPSIjMDBGRkNDIi8+PHBhdGggZD0iTTgwIDQwIEM4MCAxOCA4MCAwIDEyMCAwIEMxNjAgMCAxNjAgMTggMTYwIDQwIEMxNjAgNjIgMTYwIDgwIDEyMCA4MCBDODAgODAgODAgNjIgODAgNDAgWiIgZmlsbD0iIzAwRkZGRiIvPjx0ZXh0IHg9IjgwIiB5PSI0MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5DUzwvdGV4dD48L3N2Zz4=" alt="Logo da NoCopyrightSounds" class="ncs-logo" loading="lazy">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="genero-card">
+                            <h3>O Que é a NCS?</h3>
+                            <p>NoCopyrightSounds (NCS) é uma gravadora britânica e provedora de conteúdo livre de direitos autorais, especializada em música eletrônica. Fundada por Billy Woodford em 2011, a NCS libera músicas que podem ser usadas livremente por criadores de conteúdo no YouTube e em outras plataformas, desde que devidamente creditadas.</p>
+                            <p>A NCS tornou-se um fenômeno global, com milhões de visualizações em suas releases e uma base de fãs dedicada. Artistas como Alan Walker, Different Heaven, Elektronomia e muitos outros ganharam reconhecimento através da plataforma.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="genero-card">
+                            <h3>Impacto na Cultura</h3>
+                            <p>A NCS revolucionou a forma como criadores de conteúdo utilizam música em seus projetos. Ao fornecer músicas de alta qualidade livres de royalties, permitiu que YouTubers, streamers e outros criadores melhorassem seu conteúdo without se preocupar com infrações de direitos autorais.</p>
+                            <p>Além disso, a NCS tornou-se uma plataforma essencial para artistas emergentes mostrarem seu trabalho e ganharem reconhecimento internacional. Muitos produtores que começaram na NCS agora são nomes estabelecidos na indústria da música eletrônica.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" tabindex="0" aria-label="Seção de contato">
+            <div class="container">
+                <h2 class="titulo-secao text-center mb-5">Entre em Contato</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="formulario">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="nome" class="form-label">Nome</label>
+                                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome completo" aria-required="true">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu email" aria-required="true">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-4">
+                                    <label for="mensagem" class="form-label">Mensagem</label>
+                                    <textarea id="mensagem" name="mensagem" class="form-control" rows="5" placeholder="Escreva sua mensagem" aria-required="true"></textarea>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-lg">Enviar mensagem</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="social-icons">
+                <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            </div>
+            <p class="mb-3">Desenvolvido por Thini. Projeto pessoal sobre música eletrônica.</p>
+            <p class="mb-0">© 2025 Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
